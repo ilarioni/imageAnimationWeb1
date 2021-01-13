@@ -40,6 +40,32 @@ nav ul::after{
     height: 130px;
     background: #d0d0d0;
     position: absolute;
-    top: 20px;
+    top: 35px;
     left: -10px;
+}
+.content{
+    max-width: 600px;
+    margin-top: 100px;
+}
+.content h1{
+    font-size: 60px;
+}
+.content p{
+    max-width: 450px;
+    color: #a1a1a1;
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 22px;
+    margin: 40px 0;
+}
+.content button{
+    width: 160px;
+    padding: 10px 0;
+    border: none;
+    outline: none;
+    font-size: 16px;
+    font-weight: 300;
+    background: #ffff70;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+    cursor: pointer;
 }
