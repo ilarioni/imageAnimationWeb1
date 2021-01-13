@@ -8,7 +8,7 @@
     height: 100vh;
     background: linear-gradient(#fff, #f9ffd6);
     position: relative;
-    padding-left: 8%;
+    padding-left: 7%;
     padding-right: 8%;
     box-sizing: border-box;
 }
@@ -69,3 +69,33 @@ nav ul::after{
     box-shadow: 0 3px 10px rgba(0,0,0,0.2);
     cursor: pointer;
 }
+.car-image{
+    width: 55%;
+    position: absolute;
+    right: 60px;
+    bottom: 60px;
+    animation: run 1s linear 1;
+}
+.bottom-menu{
+    display: flex;
+    position: absolute;
+    bottom: 50px;
+}
+.bottom-menu div{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-right: 50px;  
+}
+.bottom-menu img{
+    width: 25px;
+    margin-right: 15px;
+}
+@keyframes run{
+    0%{
+        transform: translate(-100px,-100px);
+    }
+    100%{
+        transform: translate(0px, 0px);
+    }
+} 
